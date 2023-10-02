@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { io } from "socket.io-client";
 
-const socket = io("http://localhost:3500/");
+const socket = io("https://task-1-server.onrender.com/");
 type Message = {
   message: string;
   id: string;
